@@ -1,0 +1,52 @@
+body {
+    background-image: url('soft_pastels_hires.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-color: #cccccc;
+}
+
+.title {
+    font-family: 'Brush Script MT', cursive;
+    color: #4F091D;
+    font-size: 2.5rem;
+}
+
+.instruction {
+    font-family: 'Brush Script MT', cursive;
+    color: black;
+    font-size: 1.8rem;
+}
+.center-container {
+    text-align: center;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  padding: 2px;
+  font-size: 1rem;
+}
+.file-button {
+    margin: 3% auto 1% auto;
+}
+.flash-message {
+    color: red;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  max-width: 350px;
+}
